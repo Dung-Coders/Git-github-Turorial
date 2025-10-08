@@ -96,9 +96,9 @@ services:
 ```
 Notes: Docker-compose.yml is a Tool to manage multiple container apps.
 
-> docker-compose up --build
-> docker-compose up --build -d
-> docker-compose down
-> docker-compose logs
-> docker-compose logs backend
-> docker-compose logs frontend
+1. docker-compose up --build
+1. docker-compose up --build -d
+1. docker-compose down
+1. docker-compose logs
+1. docker-compose logs backend
+1. docker-compose logs frontend
